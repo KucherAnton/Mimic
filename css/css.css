@@ -1,11 +1,13 @@
 * {
 	font-family: "Roboto", sans-serif;
+	scroll-behavior: smooth;
 }
 
 body {
 	background-color: white;
 	background-size: 100%;
 	background-attachment: fixed;
+	margin: 0px;
 }
 
 .mujik {
@@ -64,24 +66,24 @@ body {
 .figure2 {
 	display: flex;
 	background-color: #549eff;
-	width: 100%; /*Помогите*/
+	width: 100%;
 	height: 740px;
 	transform: translate(0px, 200px);
 }
 
 .figure2__youtube-vid {
-	margin: auto; /*Помогите*/
+	margin: auto;
 }
-.section {
+.section1 {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
-
-.heading {
+.heading1 {
 	text-align: center;
-	margin-top: 350px; /*Помогите*/
+	margin-top: 350px;
 	font-size: 26px;
+	margin-bottom: 70px;
 }
 
 .secondText {
@@ -92,28 +94,42 @@ body {
 	margin: auto;
 }
 .Line {
-	margin-bottom: 90px;
+	margin-bottom: 70px;
 }
 
 .books {
 	height: 50%;
 }
+
 .flex2 {
 	display: flex;
 	justify-content: center;
 }
+
+.heading2 {
+	text-align: center;
+	font-size: 26px;
+	margin-top: 150px;
+}
+
 .price {
+	position: relative;
 	display: flex;
 	justify-content: center;
-	position: relative;
+	margin-right: 50px;
 }
 
 .price__img {
-	margin-top: 80px;
+	position: relative;
 	background-image: url("../img/xxx.png");
 	background-position: center;
+	width: 556px;
+	height: 1600px;
+	background-size: contain;
+	background-repeat: no-repeat;
 }
 .price__button-btn {
+	position: absolute;
 	background-color: #03aaff;
 	border: 0px;
 	color: white;
@@ -124,9 +140,46 @@ body {
 	text-align: center;
 	cursor: pointer;
 	transition: 0.2s;
-	position: absolute;
 	bottom: 0px;
+	left: 34%;
+	bottom: 110px;
 }
 .price__button-btn:hover {
 	background-color: #ff8800;
+}
+.heading3 {
+	text-align: center;
+	font-size: 28px;
+}
+.list {
+	font-size: 18px;
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	margin-left: 160px;
+}
+/*.ball {
+	background-color: #549eff;
+	width: 10px;
+	height: 10px;
+}*/
+.section2 {
+	margin-top: -150px;
+}
+.figure3 {
+	display: flex;
+	background-color: #03aaff;
+	width: 100%;
+	height: 894px;
+	transform: translate(0px, 200px);
+	justify-content: center;
+}
+.figure3__heading4-text {
+	text-align: center;
+	font-size: 24px;
+	color: white;
+	margin-top: 25px;
+}
+.figure3__books2-img {
+	height: 75%;
 }
