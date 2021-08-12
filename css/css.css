@@ -1,0 +1,132 @@
+* {
+	font-family: "Roboto", sans-serif;
+}
+
+body {
+	background-color: white;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+.mujik {
+	display: flex;
+}
+
+.flex {
+	display: flex;
+	justify-content: center;
+	margin-top: 5%;
+}
+.figure1 {
+	display: flex;
+	height: 650px;
+	width: 550px;
+	background-color: #549eff;
+	transform: translate(50px, 50px);
+	justify-content: center;
+	align-items: center;
+}
+
+.figure1__content {
+	color: white;
+}
+
+.figure1__content__mainText-text {
+	line-height: 64px;
+	font-size: 52px;
+	transform: translate(-20px, -40px);
+}
+
+.figure1__content__secondaryText-text {
+	line-height: 34px;
+	font-size: 22px;
+	transform: translate(-20px, -30px);
+}
+
+.figure1__content__button-btn {
+	background-color: #ff9900;
+	border: 0px;
+	color: white;
+	border-radius: 100px;
+	font-size: 16px;
+	height: 58px;
+	width: 240px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s;
+	transform: translate(-20px, 20px);
+}
+
+.figure1__content__button-btn:hover {
+	background-color: #ff2d00;
+}
+
+.figure2 {
+	display: flex;
+	background-color: #549eff;
+	width: 100%; /*Помогите*/
+	height: 740px;
+	transform: translate(0px, 200px);
+}
+
+.figure2__youtube-vid {
+	margin: auto; /*Помогите*/
+}
+.section {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.heading {
+	text-align: center;
+	margin-top: 350px; /*Помогите*/
+	font-size: 26px;
+}
+
+.secondText {
+	font-size: 23px;
+	display: flex;
+	width: 80%;
+	justify-content: center;
+	margin: auto;
+}
+.Line {
+	margin-bottom: 90px;
+}
+
+.books {
+	height: 50%;
+}
+.flex2 {
+	display: flex;
+	justify-content: center;
+}
+.price {
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+
+.price__img {
+	margin-top: 80px;
+	background-image: url("../img/xxx.png");
+	background-position: center;
+}
+.price__button-btn {
+	background-color: #03aaff;
+	border: 0px;
+	color: white;
+	border-radius: 30px;
+	font-size: 25px;
+	height: 75px;
+	width: 280px;
+	text-align: center;
+	cursor: pointer;
+	transition: 0.2s;
+	position: absolute;
+	bottom: 0px;
+}
+.price__button-btn:hover {
+	background-color: #ff8800;
+}
