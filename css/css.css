@@ -206,6 +206,12 @@ body {
 }
 .vk {
 	margin-right: 7px;
+	width: 30px;
+	height: 30px;
+}
+.inst {
+	width: 30px;
+	height: 30px;
 }
 .figure4 {
 	display: flex;
@@ -231,20 +237,37 @@ body {
 	text-decoration: none;
 }
 .figure4__email-input {
-	color: white;
+	color: black;
 	padding: 0px;
 	border: 0px;
-	border-radius: 0px;
 	font-size: 16px;
 	height: 45px;
 	width: 190px;
 	padding-left: 20px;
 	margin-top: 70px;
 	margin-left: 50px;
+	outline: none;
 }
 .submitButton {
 	color: #ffffff;
 	border: 0px solid #000000;
 	background-color: #111111;
 	transform: translate(280px, -35px);
+}
+.birdButton {
+	fill: #ffffff;
+	width: 20px;
+	height: 20px;
+}
+.icons2 {
+	display: flex;
+	justify-content: center;
+	margin-right: 100px;
+}
+.vk2 {
+	fill: #525252;
+	margin-right: 5px;
+}
+.inst2 {
+	fill: #525252;
 }
