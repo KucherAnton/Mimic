@@ -202,7 +202,7 @@ body {
 	display: flex;
 	justify-content: center;
 	margin-top: 60px;
-	margin-bottom: 175px;
+	margin-bottom: 200px;
 }
 .vk {
 	margin-right: 7px;
@@ -241,4 +241,10 @@ body {
 	padding-left: 20px;
 	margin-top: 70px;
 	margin-left: 50px;
+}
+.submitButton {
+	color: #ffffff;
+	border: 0px solid #000000;
+	background-color: #111111;
+	transform: translate(280px, -35px);
 }
