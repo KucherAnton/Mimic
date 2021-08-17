@@ -19,6 +19,7 @@ body {
 	justify-content: center;
 	margin-top: 5%;
 }
+
 .figure1 {
 	display: flex;
 	height: 650px;
@@ -74,11 +75,13 @@ body {
 .figure2__youtube-vid {
 	margin: auto;
 }
+
 .section1 {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
 }
+
 .heading1 {
 	text-align: center;
 	margin-top: 350px;
@@ -93,6 +96,7 @@ body {
 	justify-content: center;
 	margin: auto;
 }
+
 .Line {
 	margin-bottom: 70px;
 }
@@ -128,6 +132,7 @@ body {
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
 .price__button-btn {
 	position: absolute;
 	background-color: #03aaff;
@@ -144,13 +149,21 @@ body {
 	left: 34%;
 	bottom: 110px;
 }
+
 .price__button-btn:hover {
 	background-color: #ff8800;
 }
+
 .heading3 {
 	text-align: center;
 	font-size: 28px;
 }
+
+/* ol:before {
+	list-style: none;
+	content: "• ";
+} */
+
 .list {
 	font-size: 18px;
 	display: flex;
@@ -158,14 +171,11 @@ body {
 	justify-content: center;
 	margin-left: 160px;
 }
-/*.ball {
-	background-color: #549eff;
-	width: 10px;
-	height: 10px;
-}*/
+
 .section2 {
 	margin-top: -150px;
 }
+
 .figure3 {
 	display: flex;
 	background-color: #03aaff;
@@ -174,12 +184,14 @@ body {
 	transform: translate(0px, 200px);
 	justify-content: center;
 }
+
 .figure3__heading4-text {
 	text-align: center;
 	font-size: 24px;
 	color: white;
 	margin-top: 25px;
 }
+
 .figure3__books2-img {
 	height: 75%;
 }
@@ -194,25 +206,30 @@ body {
 	text-align: center;
 	font-size: 24px;
 }
+
 .link1 {
 	color: #ff5e01;
 	text-decoration: none;
 }
+
 .icons {
 	display: flex;
 	justify-content: center;
 	margin-top: 60px;
 	margin-bottom: 200px;
 }
+
 .vk {
 	margin-right: 7px;
 	width: 30px;
 	height: 30px;
 }
+
 .inst {
 	width: 30px;
 	height: 30px;
 }
+
 .figure4 {
 	display: flex;
 	background-color: #111111;
@@ -223,19 +240,23 @@ body {
 	font-size: 10px;
 	line-height: 20px;
 }
+
 .figure4__links-text {
 	margin-right: 50px;
 	margin-top: auto;
 	margin-bottom: auto;
 	margin-left: -350px;
 }
+
 .figure4__info-text {
 	margin-top: 60px;
 }
+
 .link2 {
 	color: #d4d4d4;
 	text-decoration: none;
 }
+
 .figure4__email-input {
 	color: black;
 	padding: 0px;
@@ -248,26 +269,50 @@ body {
 	margin-left: 50px;
 	outline: none;
 }
+
 .submitButton {
 	color: #ffffff;
 	border: 0px solid #000000;
 	background-color: #111111;
 	transform: translate(280px, -35px);
 }
+
 .birdButton {
 	fill: #ffffff;
 	width: 20px;
 	height: 20px;
+	cursor: pointer;
 }
-.icons2 {
+
+input:focus::-webkit-input-placeholder {
+	color: transparent;
+}
+.field {
+	font-size: 9px;
+	display: none;
+	text-align: center;
+	margin-top: -38px;
+	margin-right: 33px;
+}
+.field2 {
+	margin-left: 17px;
+}
+.metadata {
+	font-size: 16px;
+	text-align: start;
+}
+
+.figure__icons2-icn {
 	display: flex;
 	justify-content: center;
 	margin-right: 100px;
 }
+
 .vk2 {
 	fill: #525252;
 	margin-right: 5px;
 }
+
 .inst2 {
 	fill: #525252;
 }
